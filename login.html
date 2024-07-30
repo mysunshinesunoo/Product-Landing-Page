@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>House of Yang</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="assets/yang.png" />
+    <script src="https://kit.fontawesome.com/d5051cf351.js" crossorigin="anonymous"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Unkempt:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <div id="emailDisplay"></div>
+
+    <script>
+      // Retrieve email from local storage
+      var email = localStorage.getItem('submittedEmail');
+
+      // Display email in a div
+      var emailDisplay = document.getElementById('emailDisplay');
+      emailDisplay.textContent = 'WELCOME ' + email;
+    </script>
+    <script src="script.js"></script>
+    <script>
+ 
+    </script>
+
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  </body>
+
+  </html>
